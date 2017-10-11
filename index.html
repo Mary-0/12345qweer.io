@@ -4,12 +4,14 @@
         <meta charset="utf-8">*/
         <title>Стражи галактики</title>
          	<style>
-        	body { 
+        	body {
+        	
         		height: 768px;
         		width: 1024px;
-        		background-image: url(макет1_фон.jpg); /* путь к фоновому изображению */
+        		background-image: url(макет1_фон.jpg) ; /* путь к фоновому изображению */
+        		background-size: cover;
                 background-color: #c7b39b; /* цвет фона */
-                background-size: cover;
+                
         	}
         </style>
    <style type="text/css">
@@ -28,7 +30,8 @@
             border-radius: 15px; 
    			position: relative;
    			left: 800px;
-   			top: 250px
+   			top: 250px;	
+            text-shadow:  3px 3px 6px black, 0 0 1em black;
    		}   
    		.knopki:hover { 
    		    display: table;
@@ -50,9 +53,10 @@
    		    position: absolute;
    		    font-size: 90px;
    		    font-weight: 2000;
-   		    left: 200px;
+   		    right: 230px;
    		    top: 100px;
    		    color: #00f;
+   		    text-shadow:  3px 3px 6px black, 0 0 1em black;
    		}
    		.podval { 
    		    position: absolute;
@@ -61,12 +65,14 @@
    		    right: 50px;
    		    bottom: -150px;
    		    color: #020061;
+   		    text-shadow:  3px 3px 6px black, 0 0 1em black;
    		}
    </style>
     </head>
     <body>
     	<input type="text" onchange="alert(this.value)">
-<input type="button" value="Кнопка">
+    <input type="button" value="Кнопка">
+
         <!--<script> var years = prompt('имя пользователя', );
             </script>   -->
 <p>
