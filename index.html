@@ -3,21 +3,23 @@
     <head>
         <meta charset="utf-8">*/
         <title>Стражи галактики</title>
-         	<style>
-        	body {
-        	
-        		height: 768px;
-        		width: 1024px;
-        		background-image: url(макет1_фон.jpg) ; /* путь к фоновому изображению */
-        		background-size: cover;
-                background-color: #c7b39b; /* цвет фона */
-                
-        	}
-        </style>
-   <style type="text/css">
+    <style type="text/css">
+    body {
+        		background: url(666.jpg) no-repeat; /* путь к фоновому изображению */
+                background-color: #0004a1; /* цвет фона */
+                background-size: 100% 140%;
+
+       	}
+       	.qwer{
+       		position: fixed;
+       		
+       	}
    	    .knopki { 
    		    display: table;
-   		    margin: -2px;
+   		    position: relative;
+   		    margin-left: auto;
+   		    top: 100px;
+   		    right: 250px;
             width: 250px;
             border: 2px solid #000;
             padding: 25px;
@@ -28,17 +30,18 @@
             text-align: center;
             vertical-align: middle;
             border-radius: 15px; 
-   			position: relative;
-   			left: 800px;
-   			top: 250px;	
-            text-shadow:  3px 3px 6px black, 0 0 1em black;
+   			text-shadow:  3px 6px 9px white, 0 0 1em white;
    		}   
    		.knopki:hover { 
    		    display: table;
-   		    margin: 0px;
+   		    position: relative;
+   		    margin-left: auto;
+   		    top: 100px;
+   		    right: 250px;
             width: 250px;
             border: 2px solid #000;
             padding: 25px;
+            /*color: rgba(166, 106, 199, .50);*/
             color: #00f;
             background: #9360eb;
             cursor: pointer;
@@ -49,38 +52,100 @@
             border-radius: 15px; 
    			}
    			 
-   	   .nazvanie { 
-   		    position: absolute;
-   		    font-size: 90px;
-   		    font-weight: 2000;
-   		    right: 230px;
-   		    top: 100px;
+   	    .nazvanie { 
+   		    position: fixed;
+   		    top: 50px;
+   		    text-align: ;
+   		    font-size: 80px;
    		    color: #00f;
    		    text-shadow:  3px 3px 6px black, 0 0 1em black;
    		}
-   		.podval { 
-   		    position: absolute;
+   		.podval {
+   		    position: relative;
+   		    left: 500px;
+   		    bottom: -100px;
    		    font-size: 30px;
-   		    font-weight: 2;
-   		    right: 50px;
-   		    bottom: -150px;
-   		    color: #020061;
+   		    color: #00f;
+   		    text-align: center;
    		    text-shadow:  3px 3px 6px black, 0 0 1em black;
    		}
+    @media screen and (max-width: 840px){
+    	body{
+    		    background: url(666.jpg) no-repeat; /* путь к фоновому изображению */
+                background-color: #0004a1; /* цвет фона */
+                background-size: 120% 120%;
+                width: 840px;
+                
+    	}
+    	.qwer{
+       		position: fixed;
+       	}
+       	.knopki{
+       		display: table;
+   		    position: relative;
+   		    margin-left: auto;
+   		    top: 130px;
+   		    border: 2px solid #000;
+            padding: 25px;
+            color: #00f;
+            cursor: pointer;
+            font-size: 50px;
+            font-weight: 900;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 15px; 
+   			text-shadow:  3px 6px 9px white, 0 0 1em white;
+       	}
+       	.knopki:hover { 
+   		    display: table;
+   		    position: relative;
+   		    
+   		    top: 130px;
+   		    border: 2px solid #000;
+            padding: 25px;
+            /*color: rgba(166, 106, 199, .50);*/
+            color: #00f;
+            background: #9360eb;
+            cursor: pointer;
+            font-size: 50px;
+            font-weight: 900;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 15px; 
+   			}
+   		.nazvanie { 
+   		    position: fixed;
+   		    top: 5px;
+   		    left: 20px;
+   		    text-align: center;
+   		    font-size: 80px;
+   		    color: #00f;
+   		    text-shadow:  3px 3px 6px black, 0 0 1em black;
+   		    margin: auto;
+   		}
+   		.podval {
+   		    position: relative;
+   		    top: 100px;
+   		    font-size: 30px;
+   		    color: #00f;
+   		    text-align: center;
+   		    text-shadow:  3px 3px 6px black, 0 0 1em black;
+   		}
+    }
    </style>
     </head>
+    
     <body>
-    	<input type="text" onchange="alert(this.value)">
-    <input type="button" value="Кнопка">
 
-        <!--<script> var years = prompt('имя пользователя', );
-            </script>   -->
+    <!--<input type="text" onchange="alert(this.value)">
+    <input type="button" value="Кнопка">-->
+<p class="qwer"><img src="макет_енот.png" alt="1" class="qwer"></p>
+
 <p>
     <div class="knopki">играть</div>
     <div class="knopki">загрузить</div>
     <div class="knopki">опции</div>
     <div class="knopki">выход</div>
-    <dir class="knopki"></dir>
   <div class="nazvanie">СТРАЖИ ГАЛАКТИКИ</div>
   <div class="podval">(c)Mary Elagina, 2017.</div>
 </p>
