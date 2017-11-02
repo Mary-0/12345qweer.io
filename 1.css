@@ -5,9 +5,7 @@ body {
       }
       .knopki { 
    		    display: flex; 
-          margin: 0 auto; 
-          position: relative;	
-          top: 100px;	       		    
+          margin: 0 auto;             		    
           width: 250px;
           border: 2px solid #000;
           padding: 25px;
@@ -23,9 +21,7 @@ body {
    		}   
    		.knopki:hover { 
    		    display: flex; 
-          margin: 0 auto; 
-          position: relative; 
-          top: 100px;  		    		    
+          margin: 0 auto;  		    		    
           width: 250px;
           border: 2px solid #000;
           padding: 25px;
@@ -45,9 +41,7 @@ body {
           flex-wrap: wrap;
           flex:auto;
           justify-content: center;
-          width: 100%;
-   		    position: fixed;
-   		    top: 50px;   		    
+          width: 100%;  		    
    		    font-size: 80px;
    		    color: #00f;
    		    text-shadow:  3px 3px 6px black, 0 0 1em black;
@@ -55,9 +49,7 @@ body {
    		.podval {
           display: flex;
           flex-wrap: wrap;
-          flex:auto;
-          position: relative;
-          top: 120px;          
+          flex:auto;         
    		    width: 100%;   		    
    		    font-size: 30px;
    		    color: #00f;
@@ -67,15 +59,13 @@ body {
     	body{
     		    background: url(666.jpg) no-repeat; /* путь к фоновому изображению */
             background-color: #0004a1; /* цвет фона */
-            background-size: cover;
-            min-height: 630px; 
+            background-size: 100% 100% cover;
+            
                 
     	}
       	.knopki{
        		display: flex; 
           margin: 0 auto; 
-          position: relative; 
-          top: 150px; 
    		    border: 2px solid #000;
           padding: 25px;
           color: #00f;
@@ -90,9 +80,7 @@ body {
        	}
        	.knopki:hover { 
    		    display: flex; 
-          margin: 0 auto;
-          position: relative; 
-          top: 150px;  
+          margin: 0 auto; 
    		    border: 2px solid #000;
           padding: 25px;
             /*color: rgba(166, 106, 199, .50);*/
@@ -110,9 +98,7 @@ body {
           flex-wrap: wrap;
           flex:auto;
           justify-content: center;
-          width: 100%;
-   		    position: fixed;
-   		    top: 5px;   		   
+          width: 100%;  		   
    		    text-align: center;
    		    font-size: 80px;
    		    color: #00f;
@@ -121,7 +107,6 @@ body {
    		}
    		.podval {
    		    text-align: center;
-   		    top: 130px;
    		    font-size: 30px;
    		    color: #00f;
    		    text-align: center;
