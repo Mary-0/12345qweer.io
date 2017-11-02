@@ -59,8 +59,8 @@ body {
     	body{
     		    background: url(666.jpg) no-repeat; /* путь к фоновому изображению */
             background-color: #0004a1; /* цвет фона */
-            background-size: 100% 100% cover;
-            
+            background-size: cover;
+            min-height: 630px; 
                 
     	}
       	.knopki{
